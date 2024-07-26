@@ -40,7 +40,12 @@
             <span class="font-bold">Size:</span> <span>{data.blockData.Size} bytes</span>
           </div>
           <div>
-            <span class="font-bold">Transaction ID:</span> <span>{data.blockData.Transactions}</span>
+            <span class="font-bold">Transactions:</span>
+            <ul class="list-disc list-inside">
+              {#each data.blockData.Transactions as transaction, index}
+                <ul>{transaction}</ul>
+              {/each}
+            </ul>
           </div>
         </div>
       {:else if error}

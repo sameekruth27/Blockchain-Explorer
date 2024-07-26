@@ -22,7 +22,8 @@ export const load = async ({ params }) => {
       Size: blockData.size,
       Transactions: blockData.tx,
     };
-    console.log(blockData)
+   // console.log(blockData)
+   console.log(formattedData)
     return {
       blockData: formattedData,
     };

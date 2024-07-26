@@ -2,7 +2,7 @@
   import whatonchain from '../images/whatonchain.svg';
 </script>
 
-<footer class="text-gray-600 background-color: rgb(0 0 0)">
+<footer class="text-gray-600 background-color: rgb(0 0 0) ">
   <div class="container px-5 py-2 mx-auto flex items-center justify-center flex-col sm:flex-row">
     <div aria-label="Home. logo" class="flex justify-center items-center mb-4 sm:mb-0" role="img">
       <a href="https://whatsonchain.com" target="_blank">
