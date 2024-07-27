@@ -9,7 +9,6 @@
 
 .static-gradient {
     background: linear-gradient(to top, #4f46e5, white); /* Adjusted gradient */
-    min-height: 100vh; /* Ensure the gradient covers the full viewport height */
 }
 
 .glass {
@@ -17,6 +16,14 @@
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.3);
     max-height: 80vh; /* Limit height to avoid overflow issues */
+    overflow-y: auto; /* Enable scrolling within the glass element */
+}
+
+.glass2 {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    max-height: 60vh; /* Limit height to avoid overflow issues */
     overflow-y: auto; /* Enable scrolling within the glass element */
 }
 
@@ -39,4 +46,5 @@ header, footer {
 
 footer {
     margin-top: auto;
+    position: relative;
 }

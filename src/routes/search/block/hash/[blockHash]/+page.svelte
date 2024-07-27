@@ -21,7 +21,7 @@
     <div class="text-center">
       <h1 class="text-4xl font-bold">Block Data by Hash</h1>
     </div>
-    <section class="glass p-8 rounded-xl shadow-lg w-full max-w-6xl">
+    <section class="glass2 p-8 rounded-xl shadow-lg w-full max-w-6xl">
       {#if data.blockData}
         <div class="space-y-4 text-left">
           <div>
